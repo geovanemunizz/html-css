@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Neon&display=swap');
+
+#titulo-principal {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-indent: 20px;
+    background-color: rgb(101, 242, 101);
+    color: white;
+}
+.topico {
+    font-family: 'Merriweather', serif;
+    text-indent: 20px;
+    background-color: rgb(22, 123, 123);
+    color: white;
+}
+
+.texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 35px;
+    background-color: crimson;
+}

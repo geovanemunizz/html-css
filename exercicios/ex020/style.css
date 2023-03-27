@@ -1,0 +1,23 @@
+div {
+    background-color: rgb(220, 150, 150);
+    display: inline-block;
+    border: 1px solid rgb(3, 77, 81);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+div:hover {
+    color: black;
+}
+
+div>p {
+    display: none;
+}
+/* o paragrafo dentro da div, é o filho (children) dela*/
+div:hover>p {
+    width: 300px;
+    display: block;
+    color: rgb(0, 102, 255);
+    background-color: rgb(255, 255, 255);
+}

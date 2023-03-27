@@ -1,0 +1,20 @@
+.corpo{
+    background-color: rgba(45, 32, 32, 0.707);
+    color: rgb(220, 163, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+}
+.vermelha{
+    background-color: crimson;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.azul{
+    background-color: rgb(149, 149, 215);
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    color: chartreuse;
+    background-color: darkcyan;
+}

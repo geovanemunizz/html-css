@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Merriweather:wght@300&display=swap');
+
+*{
+    color: chartreuse;
+    flex-wrap: wrap;
+   
+}
+body{
+    background-image: linear-gradient(90deg, rgb(78, 78, 234), rgb(0, 0, 149));
+    font-size: 1em; /*Medidas Absolutas: cm, mm, in, px (recomendada), pt, pc
+
+    medidas relativas: em (recomendada), ex, rem, vw, vh, %  */
+
+}
+
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: left; /*terá o alinhamento padrão, à esquerda*/
+    text-indent: 25px;
+    font-weight: 100; 
+    /*weight = peso da fonte*/
+
+}
+h2{
+    font-family: 'Merriweather', serif;
+    text-align: right; /*ficará alinhado à direita*/
+    text-indent: 25px;
+}
+h3{
+    font-family: 'Climate Crisis', cursive;
+    text-align: center; /* terá alinhamento centralizado */
+    text-indent: 25px;
+    text-decoration: underline; /*deixa sublinhdo*/
+}   
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;/*terá o alinhamento justificado.*/
+    text-indent: 25px;
+    font-style: italic; /*deixa em italico*/
+}
+/*shorthand font
+font-style -> font-weight -> font-size -> font famaily
+font: italic bolder 3em arial, sans-serif, helvetica
+*/
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras pseudo classess</title>
+
+    <style>
+        /*
+        SELETORES PERSONALIZADOS:
+
+        # id id
+        . = class
+        : = pseudo classe
+        :: = pseudo elementos
+        > = children
+        */
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .lindo::before{
+            content: '&rt';
+            color: aliceblue;
+            background-color: aquamarine;
+        }
+        .lindo::after{
+          content: '&lt:';
+          background-color: aquamarine;
+          color: aliceblue;
+        }
+
+        a {
+            text-decoration: none;
+            color: darkblue
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: green;
+        }
+
+        a:active {
+            color: violet
+        }
+
+        #voltar {
+            color: black;
+
+        }
+    </style>
+
+</head>
+
+<body>
+   <!--   ul>li*7>   gera uma sequência de listass podendo alterar a quantidade-->
+
+    <h2> <a id="voltar" href="hover.html">Outras Classes</a></h2>
+    <ul>
+        <li> <a class="lindo"href="https://www.instagram.com/geovane.munizz/" target="_blank">Meu instagram</a></li>
+        <li> <a href="https://www.youtube.com/watch?v=tdjY18DnrWM&list=PLW1ebutJTD3TfWIG3J1gCi3Vw2WeoY6_-&index=5&ab_channel=BiscoitoFino" target="_blank">Música no youtube</a></li>
+        <li> <a href="https://github.com/Geovane6">Meu github</a></li>
+
+      
+
+    </ul>
+
+</body>
+
+</html>
