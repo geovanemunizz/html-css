@@ -10,10 +10,10 @@ body {
     border: 2px solid black;
     border-radius: 20px;
 }
-
+/* background-position: px, %, center, top, bottom, right, left */
 #q1{
-    background-image: linear-gradient(30deg, chartreuse, rgb(65, 117, 12));
-    background-position: left bottom;
+    background-image: url(imagens/pattern003.png);
+    background-position: 50% 50%; /*centralizado*/ 
 
 }
 
@@ -22,5 +22,6 @@ body {
 }
 
 #q3 {
-    background-position: left bottom;background-image: url(imagens/pattern002.png);
+    background-image: url(imagens/pattern002.png);
+    background-position: 30px 40px; /*30px para a vertical, 40px para a horizontal*/
 }
