@@ -1,8 +1,10 @@
 body {
     background-image: url(imagens/wallpaper002.jpg);
+    background-position: right bottom;
     height: 2000px;
   
 }
+
 
 .quadrado {
     display: inline-block;
