@@ -1,5 +1,6 @@
 body {
     background-image: url(imagens/wallpaper002.jpg);
+    height: 2000px;
 }
 
 .quadrado {
@@ -10,18 +11,42 @@ body {
     border: 2px solid black;
     border-radius: 20px;
 }
+
 /* background-position: px, %, center, top, bottom, right, left */
-#q1{
+#q1 {
     background-image: url(imagens/pattern003.png);
-    background-position: 50% 50%; /*centralizado*/ 
+    background-attachment: fixed; /* scroll, fixed, local */
+    background-position: 50% 50%;
+    /*centralizado*/
 
 }
 
 #q2 {
     background-image: linear-gradient(23deg, yellow, orange);
+   
+  
 }
 
 #q3 {
     background-image: url(imagens/pattern002.png);
-    background-position: 30px 40px; /*30px para a vertical, 40px para a horizontal*/
+    background-repeat: repeat; /* repeat, no-repeat, repeat-x, repeat-y*/ 
+    background-position: 30px 40px;
+    /*30px para a vertical, 40px para a horizontal*/
+}
+
+#fora {
+    height: 90vh;
+    background-color: yellowgreen;
+    position: relative;
+}
+
+#dentro {
+    height: 200px;
+    width: 300px;
+    background-color: #7fffd4;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    
 }
