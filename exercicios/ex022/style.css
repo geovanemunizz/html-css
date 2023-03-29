@@ -1,6 +1,7 @@
 body {
     background-image: url(imagens/wallpaper002.jpg);
     height: 2000px;
+  
 }
 
 .quadrado {
@@ -22,16 +23,19 @@ body {
 }
 
 #q2 {
-    background-image: linear-gradient(23deg, yellow, orange);
+    background-image: linear-gradient(90deg, transparent, rgb(10, 177, 233));
+    background-attachment: fixed;
+    
    
   
 }
 
 #q3 {
     background-image: url(imagens/pattern002.png);
+    background-attachment: fixed;
     background-repeat: repeat; /* repeat, no-repeat, repeat-x, repeat-y*/ 
     background-position: 30px 40px;
-    /*30px para a vertical, 40px para a horizontal*/
+    /*30px para a vertical (y), 40px para a horizontal (x)*/
 }
 
 #fora {
