@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
+
+}
+
+td {
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center; /* alinhamento horizontal */
+    vertical-align: top; /* alinhamento vertical */
+}
+
+.num {
+    text-align: right;
+    vertical-align: middle;
+
+}
+
