@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes com conteúdo</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+            background: linear-gradient( #37CEEB, #E0F6FF);
+            color: black;
+        }
+
+        iframe {
+            width: 400px;
+            height: 400px;
+        }
+
+        .nuvem {
+            position: absolute;
+            width: 60%;
+            animation: nuvens 20s infinite linear;
+        }
+
+        @keyframes nuvens {
+    from {
+        right: -60%;
+    }
+
+    to {
+        right: 100%;
+    }
+ }
+    </style>
+</head>
+
+<body>
+    <img src="https://multarte.com.br/wp-content/uploads/2020/05/nuvem-fundo-transparente13.png" class="nuvem">
+
+    <h1>Usando Iframes</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quam odit debitis tenetur, id fuga assumenda
+        facilis temporibus repellendus tempore nihil iure modi ipsum similique quas enim earum aperiam in?Lorem, ipsum
+        dolor sit amet consectetur adipisicing elit. Quaerat rerum facere enim totam explicabo. Ratione, labore eos,
+        molestias dolores nemo delectus qui nesciunt expedita earum reiciendis hic aliquid sed nostrum.</p>
+
+    <iframe src="iframes.html" frameborder="0"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit esse ratione non ducimus corrupti illo, porro
+        sapiente eius necessitatibus. Quo eligendi magnam aspernatur molestias eos ratione veniam odio illum sit. Lorem
+        ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, sapiente impedit quis, a rerum voluptatibus
+        blanditiis dolore quae in, aperiam eligendi ducimus amet doloremque dicta minima? Nihil aperiam suscipit at.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae vel culpa unde assumenda doloremque
+        blanditiis placeat! Quos ab doloremque saepe, atque numquam aliquam ipsa similique vitae, reprehenderit dolor
+        inventore delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur omnis ab voluptate
+        officiis commodi ducimus eligendi ipsam voluptatem perspiciatis corporis totam ex, quam inventore expedita
+        repellat doloremque iusto dolorem?</p>
+
+
+</body>
+
+</html>
