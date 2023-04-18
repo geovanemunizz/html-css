@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms 3</title>
+</head>
+<body>
+     <form action="cadastro.js" method="get" autocomplete="off">
+<fieldset>
+    <legend>Dados Pessoais</legend>
+    
+            <div>
+                <label for="inome">nome:</label>
+                <input type="text" name="nome" id="inome" minlength="3" maxlength="15" required>
+            </div>
+    
+            <div>
+                <label for="iemail"> email</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </div>
+            <!-- Estudar sobre Regex -->
+            <div>
+                <label for="iphone">Telefone</label>
+                <input type="tel" name="email" id="iphone" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4,5}$" placeholder="(xx)xxxx-xxxx">
+                <!-- numero de telefone com DDD obrigatorio -->
+            </div>
+</fieldset>
+<br>
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+
+    </form>
+
+</body>
+</html>
