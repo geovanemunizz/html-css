@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+
+<body>
+
+    <h1>Checkbox e Radio</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Gênero</legend>
+            <label for="imasculino">Masculino
+            </label>
+                <input type="radio" name="sex" id="imasculino" value="Mas" checked>
+                <label for="ifem">Feminino</label><input type="radio" name="sex" id="ifem" value="Fem">
+           
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Animes Favoritos</legend>
+            <label for="ahiro">
+                <input type="checkbox" name="ahiro" id="ahiro">Ahiro no sora
+            </label>
+
+            <label for="kimetsu">
+                <input type="checkbox" name="kimetsu" id="kimetsu">Demon Slayer
+            </label>
+
+            <label for="titan">
+                <input type="checkbox" name="titan" id="titan">Attack on Titan
+            </label>
+
+            <label for="slime">
+                <input type="checkbox" name="slime" id="slime"> tensei shittara 
+            </label>
+            <label for="haikyuu">
+                <input type="checkbox" name="haikyuu" id="haikyuu">haikyuu
+            </label>
+        </fieldset>
+
+
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+    </form>
+
+</body>
+
+</html>
