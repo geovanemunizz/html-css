@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, Datalist e textarea</title>
+</head>
+
+<body>
+    <form action="cadastro.js" method="post" autocomplete="off">
+        <div>
+            <label for="est">Estado</label>
+            <select name="estado" id="esta">
+                <optgroup label="Região Sudeste">
+                    <option value="SP"> São Paulo</option>
+                    <option value="MG"> Minas Gerais</option>
+                    <option value="RJ"> Rio de Janeiro</option>
+                </optgroup>
+                <option value="" selected>Escolha</option>
+                <optgroup label="Região Nordeste">
+                    <option value="BA"> Bahia</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+            </select>
+            <div>
+                <label for="profissões">Profissões:</label><input type="text" name="profi" id="profissões"
+                    list="listas">
+                <datalist id="listas">
+                    <option value="Adm"> Administrador</option>
+                    <option value="cont">contador</option>
+                    <option value="Aux"> Auxiliar</option>
+                    <option value="Pro">Professor</option>
+                </datalist>
+            </div>
+
+            <div><label for="mensagem">Mensagens:</label><br>
+                <textarea name="msg" id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <br>
+        <div>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+
+
+
+
+</body>
+
+</html>
