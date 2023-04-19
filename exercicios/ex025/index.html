@@ -28,7 +28,24 @@
 
         <div>
             <input type="color" name="cor" id="cor" value="#009dff">
-            <input type="range" value="20">
+        </div>
+        <div>
+            <label for="set">Alcance</label>
+            <input type="range" name="seta" id="set" value="20" min="3" max="100" oninput="slide.innerHTML = Number(set.value)">
+            <output id="slide">20</output>
+        </div>
+        <br>
+        <div>
+            <label for="num">primeiro Number</label>
+            <input type="number" name="num" id="num" min="4" max="56" value="10" oninput="soma.innerHTML = Number(num.value) + Number(num2.value)">
+        </div>
+        <div>
+            <label for="num2"> Segundo Number</label>
+            <input type="number" name="num2" id="num2" min="4" max="56" value="10" oninput="soma.innerHTML = Number(num.value) + Number(num2.value)">
+        </div>
+        <div>
+            <label for="soma">Esta é a soma:</label>
+            <output id="soma">0</output>
         </div>
     </form>
 

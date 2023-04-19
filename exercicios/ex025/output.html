@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Output</title>
+</head>
+
+<body>
+    <form action="cadastro.js">
+        <div>
+            <label for="num1">Number 1</label>
+            <input type="number" name="num1" id="num1" min="1" max="85" required
+                oninput="sum.innerHTML = Number(num1.value) + Number(num2.value)">
+        </div>
+        <div>
+            <label for="num2">Number 2</label>
+            <input type="number" name="num2" id="num2" min="1" max="85" required
+                oninput="sum.innerHTML = Number(num1.value) + Number(num2.value)">
+        </div>
+        <div>
+            <label for="sum">Soma</label>
+            <output name="sum" id="sum">0</output>
+        </div>
+
+        <div>
+            <label for="rangers"></label>
+            <input type="range" name="rangers" id="rangers" min="3" max="16" value="6"
+                oninput="ranger.innerHTML = Number(rangers.value)">
+            <output id="ranger">6</output>
+        </div>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar">
+
+    </form>
+
+
+</body>
+
+</html>

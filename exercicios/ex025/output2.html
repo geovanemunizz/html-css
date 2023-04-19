@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output 2</title>
+</head>
+<body>
+
+    <form action="cadastro.js" method="post">
+        <div>
+            <label for="ano">Ano de Nascimeto</label>
+            <input type="number" name="ano" id="ano" min="1950" max="2023" value="2003" oninput="calcIdade()">
+        </div>
+
+        <div>
+            <label for="idade">Esta é a sua idade:</label>
+            <output id="idade">20</output>
+        </div>
+<br>
+        <label for="x">Número 1:</label>
+        <input type="number" id="x" name="x">
+      
+        <label for="y">Número 2:</label>
+        <input type="number" id="y" name="y">
+      
+        <label for="resultado">Resultado:</label>
+        <output for="x y" id="resultado"></output>
+      
+        <button type="button" onclick="document.getElementById('resultado').value = document.getElementById('x').value * document.getElementById('y').value;">Calcular</button>
+      </form>
+
+      <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(ano.value)
+
+        }
+      </script>
+      
+    
+</body>
+</html>
