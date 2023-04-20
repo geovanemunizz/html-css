@@ -1,1 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 /*Landscape*/
+
+body {
+    font-family: idroid;
+    background-image: url('/imagens/cev-landscape.jpg');
+    background-position: left bottom;
+}
