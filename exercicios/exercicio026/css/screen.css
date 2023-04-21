@@ -5,21 +5,21 @@
 }
 
 :root {
-    --cordefundo:  #00000083;
+    --cordefundo: #00000083;
     --fontepadrao: 'Times New Roman', Times, Serif;
-    --cordecabecalho:  #cbf029;
-    --cordeletra:  #f0f8ff;
+    --cordecabecalho: #cbf029;
+    --cordeletra: #f0f8ff;
 }
 
 html {
-    font-family: var(--fontepadrao);  
+    font-family: var(--fontepadrao);
     font-size: 1em;
 }
 
 
 
 body {
-    background: linear-gradient(23deg, #08468888,  #0eba84) no-repeat;
+    background: linear-gradient(23deg, #08468888, #0eba84) no-repeat;
     height: 100vh;
 }
 
@@ -33,7 +33,7 @@ header {
     border-radius: 6px;
 }
 
-header > h1 {
+header>h1 {
     color: var(--cordecabecalho);
 }
 
@@ -43,7 +43,7 @@ ul {
     padding: 6px;
     border-radius: 12px;
     box-shadow: 2px 2px 2px 1px var(--cordecabecalho);
-   
+
 }
 
 li {
@@ -54,7 +54,5 @@ article {
     display: block;
     width: 500px;
     margin: auto;
-   color: var(--cordeletra);
+    color: var(--cordeletra);
 }
-
-
