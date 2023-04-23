@@ -34,10 +34,7 @@ grades telas: acima de 1200px
         display: block;
     }
 
-    #phone,
-    #tablet,
-    #pc,
-    #tv {
+    #phone {
         display: none;
     }
 }
@@ -52,10 +49,7 @@ grades telas: acima de 1200px
         display: block;
     }
 
-    #phone,
-    #print,
-    #pc,
-    #tv {
+    #phone {
         display: none;
     }
 
@@ -71,10 +65,7 @@ grades telas: acima de 1200px
         display: block;
     }
 
-    #tablet,
-    #print,
-    #phone,
-    #tv {
+    #phone {
         display: none;
     }
 
@@ -94,9 +85,6 @@ grades telas: acima de 1200px
         display: block;
     }
 
-    #tablet,
-    #print,
-    #pc,
     #phone {
         display: none;
     }
