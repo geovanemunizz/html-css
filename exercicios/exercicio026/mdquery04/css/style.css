@@ -5,12 +5,13 @@
 }
 
 header {
-  background: grey;
+  background: #0073cb;
   height: 110px;
   padding: 10px;
 }
 
 header h1 {
+  color: #73aad4;
   text-align: center;
   font-size: 2em;
 }
@@ -27,29 +28,35 @@ li {
   width: 80px;
   height: 25px;
   padding-top: 3px;
-  background-color: rgb(86, 92, 86);
+  background-color: #232a3c;
   border-radius: 5px;
   color: white;
-  
 }
 
 li:hover {
-  background: rgb(0, 0, 0);
-  
+  background: #000000;
 }
 
 a {
   text-decoration: none;
 }
 
+#burger {
+  display: block;
+  position: absolute;
+  width: 100vw;
+  color: #ffffff;
+}
 
 main {
   width: 90vh;
   height: 600px;
   margin: auto;
   margin-top: 10px;
+  border: 2px solid #232a3c;
+  border-radius: 5px;
+  padding: 10px;
   text-align: justify;
-  background: rgba(100, 99, 98, 0.792);
 }
 
 h1 {
