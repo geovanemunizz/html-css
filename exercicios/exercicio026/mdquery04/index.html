@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdquery.css">
     <title>Menu Responsivo</title>
 </head>
 
-<body>
+<body onresize="mudouSize()">
     <header>
         <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
         <h1>Menu Responsivo </h1>
@@ -61,6 +62,16 @@
 
             else {
                 itens.style.display = 'block'
+            }
+
+            function mudouSize() {
+                if (window.width >= 768) {
+                    itens.style.display = 'block'
+                }
+                else {
+                    itens.style.display = 'none'
+                }
+
             }
 
         }
